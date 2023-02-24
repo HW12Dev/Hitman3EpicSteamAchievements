@@ -1,0 +1,8 @@
+x64/
+External/EOSSDK/**
+External/steam/**
+
+*.user
+*.log
+
+.vs/
