@@ -27,8 +27,9 @@ BOOL WINAPI DllMain(HINSTANCE hinstDLL, DWORD fdwReason, LPVOID lpReserved)
 	if (fdwReason == DLL_PROCESS_ATTACH)
 	{
 		if (std::filesystem::exists("./Retail/AchievementHandler.dll")) {
-			SteamAPI_Init();
-			g_AchievementHandler =LoadLibrary("AchievementHandler");
+			if (SteamAPI_Init()) {
+				g_AchievementHandler = LoadLibrary("AchievementHandler");
+			}
 		}
 		if (!GetSystemDirectoryW(s_PathBuffer, sizeof(s_PathBuffer) / sizeof(wchar_t)))
 			return false;
