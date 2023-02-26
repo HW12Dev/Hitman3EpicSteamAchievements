@@ -1,8 +1,6 @@
 **Hitman 3 Epic-Steam Achievements**
 
-This is a project I made to transfer any Epic Games Store achievements for HITMAN 3 to Steam as they are unlocked.
-
-This is not fully complete, so I will make changes overtime.
+This is a project I made to transfer any Epic Games Store achievements for HITMAN 3 to the Steam release of HITMAN 3.
 
 **INSTALLING**
 
