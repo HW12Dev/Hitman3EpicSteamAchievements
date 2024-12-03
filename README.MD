@@ -29,3 +29,5 @@ UNINSTALLATION INSTRUCTIONS:
 
         External/steam/sdk/public
         External/steam/sdk/redistributable_bin
+
+This project is built with EOS SDK version `16697186-v1.13` and Steam SDK version `v155`.
